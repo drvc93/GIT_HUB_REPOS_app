@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+    
+    <TableRow>
+
+        <TextView
+            android:id="@+id/ttipo"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"/>
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tnumero"
+            android:layout_width="10dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tfecha"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tcodigo"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tmaquina"
+            android:layout_width="120dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tcc"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tcentro"
+            android:layout_width="120dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tfrecuencia"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tcondicion"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tobservacion"
+            android:layout_width="150dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tcomentario"
+            android:layout_width="150dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <TextView
+            android:id="@+id/tinspeccionado"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+    </TableRow>
+
+</TableLayout>

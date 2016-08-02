@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+        
+        <TextView
+            android:id="@+id/tnumero"
+            android:layout_width="40dip"
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:paddingLeft="10dip"/>
+		
+        <Spinner 
+            android:id="@+id/stiporevision"
+            android:layout_width="40dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:ellipsize="end"
+            android:gravity="center"
+            style="@style/SpinnerSG"/>
+		
+        <!-- 
+            android:gravity="center"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            style="@style/SpinnerSG"/ -->
+        			
+        <EditText
+            android:id="@+id/tcomentario"
+            android:layout_width="850dip"
+            android:layout_margin="1dip"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:hint="Escribir Comentario"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+       		<!-- android:layout_weight="0.5" -->
+		       	
+        <Button
+            android:id="@+id/bimagen"
+            android:layout_width="150dip"
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:ellipsize="end"
+            android:onClick="EventoTomarFoto"
+            android:singleLine="true"
+            android:text="Imagen"/>
+        
+        <ImageButton
+	       android:id="@+id/bremove"
+	       android:layout_width="46sp"
+	       android:layout_height="fill_parent"
+	       android:onClick="removeLineaOnClickHandler"
+	       android:src="@android:drawable/ic_menu_delete"
+	       android:background="@android:color/transparent"/><!-- android:src="@drawable/icon_delete" -->
+        
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="predet">#b6b8b7</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="gris">#cacaca</color>
+    
+    <color name="main">#151825</color>
+    <color name="panelTabLista">#151825</color>
+    <color name="panelBusqueda">#151825</color>
+    <color name="panelBusquedasuperior">#364360</color>
+    <color name="panelMantenimiento">#151825</color>
+    <color name="panelMantenimientosuperior">#364360</color>
+    
+    <color name="botflotastartColor">#4477A1</color>
+    <color name="botflotaendColor">#111111</color>
+    
+    <color name="botpiestrokeColor">#4477A1</color>
+    <color name="botpiestartColor">#364360</color>
+    <color name="botpieendColor">#364360</color>
+    
+    <color name="botformato1strokeColor">#000</color>
+    <color name="botformato1startColor">#f7ea95</color>
+    <color name="botformato1endColor">#f7ea95</color>
+    <color name="botformato1texto">#000</color>
+    
+    <color name="spinnertrokeColor">#4477A1</color>
+    <color name="spinnerstartColor">#364360</color>
+    <color name="spinnerendColor">#364360</color>
+    
+    <color name="pie">#364360</color>
+    
+    <color name="listatitulo">#b6b8b7</color>
+	<color name="listasubtitulo">#4477A1</color>
+    <color name="listasubtituloBlanco">#fff</color>
+    <color name="listasubtituloBlancoII">#b6b8b7</color>
+    <color name="botonAddModifyQuit">#fff</color>
+    
+	<color name="line">#4477A1</color>
+	<color name="predetnegro">#000</color>
+	
+    <color name="TextoBuscar">#ffffff</color>
+   	<color name="red">#7f00</color>
+	<color name="blue">#770000ff</color>
+	<color name="green">#7700ff00</color>
+	<color name="yellow">#77ffff00</color>
+	<color name="naranja">#E65F00</color>
+	<color name="fondolistview">#170F27</color>
+	<color name="borderlistview">#4477A1</color>
+	<color name="divisorlistview">#fff</color>
+	<color name="tabtitulo">#17170443</color>
+	
+	<color name="resaltadoA1">#77ffff00</color>
+	<color name="resaltadoA2">#77ffff00</color>
+	<color name="resaltadoA3">#77ffff00</color>
+	<color name="resaltadoA4">#77ffff00</color>
+	<color name="resaltadoA5">#77ffff00</color>
+	<color name="ComboBox">#000000</color>
+	
+	<color name="blue_pressed">#cc0000</color><!-- ff0099cc -->
+    <color name="blue_normal">#ff0000</color><!-- ff33b5e5 -->
+	
+</resources>

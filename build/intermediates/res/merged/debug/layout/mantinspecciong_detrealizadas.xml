@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+	
+    <!-- Layout de Pestañas -->
+    <LinearLayout 
+        android:id="@+id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:baselineAligned="false">
+        
+        <!-- Layout de Tab 01 - Condiciones de la Inspección -->
+        <LinearLayout 
+            android:id="@+id/tabInspeccionT01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:baselineAligned="false"
+            android:background="@color/panelMantenimiento"
+            android:visibility="visible">
+            
+            <!-- Layout de Tab 01 - Encabezado -->
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/panelMantenimientosuperior">
+                
+            </LinearLayout>
+            
+            <ScrollView 
+			    android:layout_width="fill_parent"
+	   	        android:layout_height="fill_parent">
+	   	        
+	   	    	<!-- Tab 01 - Inicio Condición de Inspección T. -->
+	   	    	<LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical"
+				    android:layout_marginBottom="10dp">
+				    
+	   	    	    <TextView 
+	   	    	        android:text="@string/mantinspecciong01_CondicionInspeccion"
+			            android:textSize="14dp"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:gravity="center"
+			            android:layout_marginBottom="10dp"
+			            android:textStyle="bold"
+			            android:textColor="@color/listasubtitulo"
+			            android:layout_marginTop="4dp"/>
+	   	    	    
+	   	    	    <TextView  
+				   	    android:id="@+id/lblTab01TituloMaquina"
+			            android:text="@string/mantinspecciong01_Maquina"	            
+			            android:textSize="14dp"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="10dp"
+			            android:layout_marginLeft="10dp"
+			            android:layout_marginRight="10dp"
+			            android:textColor="@color/predet"/>
+			        
+			        <!-- Máquina -->
+				    <LinearLayout
+				      	android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:orientation="horizontal"
+				    	android:layout_marginTop="4dp"
+				    	android:layout_marginBottom="2dp">
+						
+				        <!-- <EditText
+			                android:id="@+id/etmaquina2"
+			                android:layout_width="0dip"
+			                android:layout_height="25dp"
+			                android:layout_marginLeft="10dp"
+			                android:background="@drawable/draw_textview"
+			                android:layout_weight="1"
+			                android:textSize="14dp"
+			                android:textColor="@color/predetnegro"
+			                android:enabled="false"/> -->
+				        
+				        <TextView
+				            android:id="@+id/etmaquina2"
+				            android:layout_width="0dip"
+				            android:layout_height="25dp"
+				            android:textSize="14dp"
+				            android:background="@drawable/draw_textview"
+				            android:paddingLeft="5dp"
+				            android:paddingRight="5dp"
+				            android:layout_marginLeft="10dp"
+				            android:layout_marginRight="10dp"
+				            android:layout_gravity="fill"
+				            android:lines="1"
+				            android:textColor="@color/predetnegro"
+				            android:layout_weight="1"/>
+				        
+				        <!-- <TextView
+				            android:id="@+id/lblDescripcionMaquina"
+				            android:layout_width="0dip"
+				            android:layout_height="25dp"
+				            android:textSize="14dp"
+				            android:background="@drawable/draw_textview"
+				            android:paddingLeft="5dp"
+				            android:paddingRight="5dp"
+				            android:layout_marginLeft="3dp"
+				            android:layout_marginRight="10dp"
+				            android:layout_weight="1"
+				            android:layout_gravity="fill"
+				            android:lines="1"
+				            android:textColor="@color/predetnegro">
+				        </TextView> -->
+				       
+				       <!-- <Spinner
+					   	    android:id="@+id/cboMaquina"
+					   	    android:layout_gravity="center"
+					   	    android:layout_width="30dp"
+					   	    android:layout_height="25dp"
+					   	    android:layout_marginLeft="3dp"
+					   	    android:layout_marginRight="10dp"
+					   	    android:paddingLeft="2dp"
+					   	    android:paddingRight="2dp"
+					   	    android:paddingBottom="1dp"
+					   	    android:paddingTop="1dp"
+					   	    android:textSize="14dp"
+					   	    android:background="@drawable/flat_selector"
+					   	    android:prompt="@string/mantinspecciong01_BuscarMaquina"/> -->
+				       
+				        <!-- <Button
+				            android:layout_marginLeft="3dp"
+				            android:id="@+id/btnMaquina"
+				            android:layout_width="40dp"
+				            android:layout_height="25dp"			            
+				            android:text="@string/mantinspecciong01_BuscarMaquina"
+				            android:textSize="14dp"
+				            android:layout_marginRight="10dp"	
+				            android:onClick="EventoBuscarMaquina"
+				            android:textColor="@color/white"
+				            android:background="@drawable/flat_selector"/>  -->
+				        
+				    </LinearLayout>
+				    
+				    <!-- Label Tipo Insp. y C.Costo -->
+				    <LinearLayout
+				    	android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:layout_gravity="center_horizontal"        
+				    	android:orientation="horizontal"
+				    	android:layout_marginTop="8dp"
+				    	android:layout_marginLeft="10dp"
+				    	android:layout_marginRight="10dp"
+				    	android:weightSum="2">
+				        
+				        <TextView
+				            android:id="@+id/lblTab01TituloTipoInspeccion"
+				            android:text="@string/mantinspecciong01_TipoInsp"
+				            android:textSize="14dp"
+				            android:layout_width="0dip"           
+				            android:layout_height="wrap_content"
+				            android:textColor="@color/predet"
+							android:layout_weight="1" />
+			            			            
+			            <TextView
+			                android:id="@+id/lblTab01TituloCCosto"
+				            android:text="@string/mantinspecciong01_CCosto"
+				            android:textSize="14dp"
+				            android:layout_width="0dip"
+				            android:layout_height="wrap_content"        
+				            android:layout_marginLeft="3dp"
+				            android:textColor="@color/predet"
+				            android:layout_weight="1"/>	
+				        
+				    </LinearLayout>
+	   	    	    
+				    <!-- Spinner Tipo Insp. y C.Costo -->
+				    <LinearLayout
+				    	android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:layout_gravity="center_horizontal"        
+				    	android:orientation="horizontal"
+				    	android:layout_marginTop="4dp"
+				    	android:layout_marginLeft="10dp"
+				    	android:layout_marginRight="10dp"
+				    	android:weightSum="2">
+			        	
+				        <!-- <Spinner
+					   	    android:id="@+id/ttipo2"
+					   	    android:layout_gravity="center"
+					   	    android:layout_width="0dip"
+					   	    android:layout_height="25dp"	  
+					   	    android:paddingLeft="2dp"
+					   	    android:paddingRight="2dp"
+					   	    android:paddingBottom="1dp"
+					   	    android:paddingTop="1dp"
+					   	    android:textSize="14dp"
+					   	    android:background="@drawable/draw_spinner_fondo"
+					   	    android:prompt="@string/mantinspecciong01_TipoInsp_promt"
+					   	    android:layout_weight="1"/> -->
+				        
+				        <TextView
+				            android:id="@+id/ttipo2"
+				            android:layout_width="0dip"
+				            android:layout_height="25dp"
+				            android:paddingBottom="1dp"
+					   	    android:paddingTop="1dp"
+				            android:textSize="14dp"
+				            android:background="@drawable/draw_textview"
+				            android:paddingLeft="2dp"
+				            android:paddingRight="2dp"
+				            android:layout_gravity="fill"
+				            android:lines="1"
+				            android:textColor="@color/predetnegro"
+				            android:layout_marginLeft="3dp"
+							android:layout_weight="1">
+						</TextView>
+				        
+				        <TextView
+				            android:id="@+id/etccosto2"
+				            android:layout_width="0dip"
+				            android:layout_height="25dp"
+				            android:paddingBottom="1dp"
+					   	    android:paddingTop="1dp"
+				            android:textSize="14dp"
+				            android:background="@drawable/draw_textview"
+				            android:paddingLeft="2dp"
+				            android:paddingRight="2dp"
+				            android:layout_gravity="fill"
+				            android:lines="1"
+				            android:textColor="@color/predetnegro"
+				            android:layout_marginLeft="3dp"
+							android:layout_weight="1">
+						</TextView>
+				        
+				        <!-- <Spinner
+					   	    android:id="@+id/cboCCosto"
+					   	    android:layout_gravity="center"
+					   	    android:layout_width="0dip"					   	    
+					   	    android:layout_height="25dp"	  
+					   	    android:paddingLeft="2dp"
+					   	    android:paddingRight="2dp"
+					   	    android:paddingBottom="1dp"
+					   	    android:paddingTop="1dp"
+					   	    android:background="@drawable/draw_spinner_fondo"
+					   	    android:prompt="@string/mantinspecciong01_CCosto_promt"
+					   	    android:layout_marginLeft="3dp"
+					   	    android:layout_weight="1"/> -->
+				        
+				    </LinearLayout>
+				    
+				    <!-- Label Fecha Insp. y Estado -->
+				    <LinearLayout
+				    	android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:layout_gravity="center_horizontal"        
+				    	android:orientation="horizontal"
+				    	android:layout_marginTop="8dp"
+						android:layout_marginLeft="10dp"
+						android:layout_marginRight="10dp"
+						android:weightSum="2">
+				        
+				        <TextView
+				            android:id="@+id/lblTab01TituloFechaInsp"
+				            android:text="@string/mantinspecciong01_FechaInsp"
+				            android:textSize="14dp"
+				            android:layout_width="0dip"           
+				            android:layout_height="wrap_content"
+				            android:textColor="@color/predet"
+							android:layout_weight="1" />
+			            			            
+			            <TextView
+			                android:id="@+id/lblTab01TituloEstado"
+				            android:text="@string/lbl_buscarinspeccionestado_det"
+				            android:textSize="14dp"
+				            android:layout_width="0dip"
+				            android:layout_height="wrap_content"        
+				            android:layout_marginLeft="3dp"
+				            android:textColor="@color/predet"
+				            android:layout_weight="1"/>
+				        
+				    </LinearLayout>
+				    
+				    <!-- TextView Fecha Insp. y Estado -->
+				    <LinearLayout
+				    	android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:layout_gravity="center_horizontal"        
+				    	android:orientation="horizontal"
+				    	android:layout_marginTop="4dp"
+				    	android:weightSum="2">
+			            
+				        <TextView
+				            android:id="@+id/tfecha2"
+				            android:layout_width="0dip"
+				            android:layout_height="25dp"
+				            android:textSize="14dp"
+				            android:background="@drawable/draw_textview"
+				            android:paddingLeft="5dp"
+				            android:paddingRight="5dp"
+				            android:layout_marginLeft="10dp"
+				            android:layout_gravity="fill"
+				            android:lines="1"
+				            android:textColor="@color/predetnegro"
+							android:layout_weight="1">
+						</TextView>
+			            			            
+			            <TextView
+				            android:id="@+id/testado2"
+				            android:layout_width="0dip"
+				            android:layout_height="25dp"
+				            android:textSize="14dp"
+				            android:background="@drawable/draw_textview"
+				            android:layout_marginLeft="3dp"
+				            android:paddingLeft="5dp"
+				            android:paddingRight="5dp"
+				            android:layout_marginRight="10dp"
+				            android:layout_gravity="fill"
+				            android:lines="1"
+				            android:textColor="@color/predetnegro"
+							android:layout_weight="1">
+						</TextView>
+				        
+				    </LinearLayout>
+				    
+				    <!-- Label Comentario -->
+				    <TextView
+				        android:id="@+id/lblTab01TituloComentario"
+			            android:text="@string/mantinspecciong01_Comentario"	            
+			            android:textSize="14dp"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="8dp"
+			            android:layout_marginLeft="10dp"
+			            android:layout_marginRight="10dp"
+			            android:textColor="@color/predet"/>
+				    
+				    <!-- Comentario -->
+				    <LinearLayout
+				      	android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:orientation="horizontal"
+				    	android:layout_marginTop="4dp"
+				    	android:layout_marginBottom="2dp">
+				        
+				        <!-- <EditText
+			                android:id="@+id/etcomentario2"
+			                android:layout_width="0dip"
+			                android:layout_height="25dp"
+			                android:layout_marginLeft="10dp"
+			                android:background="@drawable/draw_textview"
+			                android:layout_weight="1"
+			                android:textSize="14dp"
+			                android:textColor="@color/predetnegro"
+			                android:enabled="false"/> -->
+				        
+					    <TextView
+					        android:id="@+id/etcomentario2"           
+				            android:textSize="14dp"
+				            android:layout_width="0dip"
+				            android:layout_weight="1"
+				            android:layout_marginLeft="10dp"
+				            android:layout_marginRight="10dp"
+				            android:background="@drawable/draw_textview"
+				            android:layout_gravity="fill"
+				            android:lines="1"
+				            android:layout_height="25dp"
+				            android:textColor="@color/predetnegro"/>
+					    
+					    <!-- <Button
+				            android:layout_marginLeft="3dp"
+				            android:id="@+id/btnAreaProb"
+				            android:layout_width="40dp"
+				            android:layout_height="25dp"			            
+				            android:text="@string/mantinspecciong01_VerAreaProb"
+				            android:textSize="14dp"
+				            android:layout_marginRight="10dp"
+				            android:textColor="@color/white"
+				            android:background="@drawable/flat_selector"/> -->
+					    
+				    </LinearLayout>
+				    
+				    <!-- Label Inspector -->
+				    <TextView
+				        android:id="@+id/lblTab01TituloInspector"
+			            android:text="@string/mantinspecciont01_Inspector"	            
+			            android:textSize="14dp"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="8dp"
+			            android:layout_marginLeft="10dp"
+			            android:layout_marginRight="10dp"
+			            android:textColor="@color/predet"/>
+				    
+				    <!-- TextView Inspector -->
+				    <LinearLayout
+				      	android:layout_width="fill_parent"
+				    	android:layout_height="wrap_content"
+				    	android:orientation="horizontal"
+				    	android:layout_marginTop="4dp"
+				    	android:layout_marginBottom="2dp">
+			
+				        <TextView
+				            android:id="@+id/tusuarioinsp2"
+				            android:layout_width="70dp"
+				            android:layout_height="25dp"
+				            android:textSize="14dp"
+				            android:background="@drawable/draw_textview"
+				            android:paddingLeft="5dp"
+				            android:paddingRight="5dp"
+				            android:layout_marginLeft="10dp"
+				            android:layout_gravity="fill"
+				            android:lines="1"
+				            android:textColor="@color/predetnegro">
+				        </TextView>
+				        
+				        <TextView
+				            android:id="@+id/tnomusuarioinsp2"
+				            android:layout_width="0dip"
+				            android:layout_height="25dp"
+				            android:textSize="14dp"
+				            android:background="@drawable/draw_textview"
+				            android:paddingLeft="5dp"
+				            android:paddingRight="5dp"
+				            android:layout_marginLeft="3dp"
+				            android:layout_marginRight="10dp"					            
+				            android:layout_weight="1"
+				            android:layout_gravity="fill"
+				            android:lines="1"
+				            android:textColor="@color/predetnegro">
+				        </TextView>
+				        
+				    </LinearLayout>
+				    
+				</LinearLayout>
+				    
+            </ScrollView>
+            
+        </LinearLayout>
+        
+        
+        <!-- Layout de Tab 02 - Agregar Detalle de la Inspección T. -->
+        <LinearLayout 
+            android:id="@+id/tabInspeccionT02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:baselineAligned="false"
+            android:background="@color/panelMantenimiento"
+            android:visibility="invisible">
+            
+            <!-- Layout de Tab 02 - Encabezado -->
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/panelMantenimientosuperior">
+                
+            </LinearLayout>
+            
+            <!-- Tab 02 - Inicio Ingreso Detalle Inspección T. -->
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="3dp">
+                
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    
+                    <!-- <Button
+			            android:layout_marginLeft="10dp"
+			            android:id="@+id/btnAgregarIG"
+			            android:layout_width="wrap_content"
+			            android:layout_height="25dp"			            
+			            android:text="@string/mantinspecciong02_Agregar"
+			            android:textSize="14dp"
+			            android:layout_marginRight="10dp"
+			            android:paddingLeft="3dp"
+			            android:paddingRight="3dp"
+			            android:textColor="@color/white"
+			            android:background="@drawable/flat_selector"/> -->
+                    
+                </LinearLayout>
+                
+                <ListView 
+                    android:id="@+id/listainspecciong2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:descendantFocusability="beforeDescendants"
+                    android:divider="#FFFFFF"
+                    android:dividerHeight="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    
+                </ListView>
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <!-- Pie de botones -->
+   	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:background="@drawable/draw_button_gen">	
+	            
+        <Button
+            android:id="@+id/btnRetroceder"
+            android:layout_width="108dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="1dp"
+            android:textSize="14dp"
+            android:text="@string/btn_retroceder" 
+            android:background="@drawable/draw_button_gen"
+		    android:textColor="@color/white"
+            android:onClick="EventoRetroceder"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"/>
+        
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="108dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="1dp" 
+            android:text="@string/btn_siguiente" 
+            android:textSize="14dp"
+            android:background="@drawable/draw_button_gen"
+		    android:textColor="@color/white"
+            android:onClick="EventoSiguiente"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"/>
+	</RelativeLayout>
+    
+</LinearLayout>

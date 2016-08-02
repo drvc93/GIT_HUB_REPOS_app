@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/fondoblue2">
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:baselineAligned="false">
+	    
+	    <LinearLayout
+	    	android:layout_width="300dp"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_horizontal"
+	    	android:orientation="vertical"
+	    	android:layout_marginBottom="15dp"
+	    	android:layout_marginTop="10dp">
+	    
+	        <ImageView  
+		        android:contentDescription="@string/main_img_titulo"          
+		        android:id="@+id/imgTitulo"
+		        android:layout_width="wrap_content"            
+		        android:layout_height="50dp"
+		        android:src="@drawable/logo"
+		        android:layout_gravity="center"/>         
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center_horizontal">
+	        
+	        <View
+		        android:id="@+id/view1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="0.65dp"
+		        android:background="@drawable/draw_line" />
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="fill_horizontal">
+
+			</LinearLayout>
+
+			<EditText
+                android:id="@+id/txtUsuario"
+                android:layout_width="400sp"
+                android:inputType="textCapCharacters"
+                android:capitalize="characters"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/draw_edittext"
+                android:hint="usuario"
+                android:textSize="16sp"
+				android:textColor="@color/black"
+				android:padding="5dp">
+                <requestFocus />
+            </EditText>
+
+			<EditText
+android:id="@+id/txtClave"
+android:layout_width="400sp"
+android:layout_height="30dp"
+android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+android:layout_marginBottom="15dp"
+android:inputType="textPassword"
+android:background="@drawable/draw_edittext"
+android:textColor="@color/black"
+android:hint="contraseña"
+				android:padding="5dp">
+</EditText>
+
+			<RelativeLayout
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_gravity="center_horizontal"        
+		    	android:orientation="horizontal"
+		    	android:layout_marginLeft="10dp"
+		    	android:layout_marginRight="10dp">
+
+				<!-- android:onClick="EventoAceptar" -->
+
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center_horizontal">
+
+					<Button
+                        android:id="@+id/btnEntrar"
+                        android:layout_width="400sp"
+                        android:layout_height="40dp"
+                        android:text="@string/btn_aceptar"
+                        android:background="@drawable/flat_selector"
+                        android:layout_alignParentLeft="true"
+                        android:textColor="@color/white"
+                        android:textSize="14dp"
+						android:textStyle="bold"
+						android:layout_marginBottom="10dp"
+						android:padding="10dp" />
+
+					<Button
+                        android:id="@+id/btnSincronizar"
+                        android:layout_width="400sp"
+                        android:layout_height="40dp"
+                        android:text="@string/btn_sincronizar"
+                        android:background="@drawable/flat_selector"
+                        android:layout_alignParentRight="true"
+
+                        android:textColor="@color/white"
+                        android:textSize="14dp"
+						android:layout_marginBottom="10dp"
+						android:textStyle="bold"
+						android:padding="10dp" />
+
+				</LinearLayout><!-- android:onClick="EventoSincronizar" -->
+		     
+		    </RelativeLayout>
+
+		</LinearLayout>
+	
+	</LinearLayout>
+	
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ftablet1">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/title_igeneral"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/lblCodbar"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:background="@drawable/circular_button"
+            style="@style/ButtonIR"
+            android:layout_gravity="center"
+            android:layout_width="520dp"
+            android:text="Registrar Inspección General"
+            android:textSize="40dp"
+            android:layout_height="130dp"
+            android:id="@+id/btitft"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:background="@drawable/circular_button"
+            style="@style/ButtonRI"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:layout_width="520dp"
+            android:layout_height="130dp"
+            android:text="Revisar Insp. Generales Pasadas"
+            android:id="@+id/btitpl"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:background="@drawable/circular_button"
+            style="@style/ButtonRE"
+            android:layout_width="520dp"
+            android:text="Inspecciones Generales Realizadas"
+            android:textSize="40dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:id="@+id/btitca"
+            />
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:background="@drawable/circular_button"
+            style="@style/button_text"
+            android:layout_width="600dp"
+            android:text="Historial de máquina"
+            android:textSize="40dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:id="@+id/bthf"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db0f122c99ef9f90dbab3fada6d191f2880cbb8e">
+        <dex dex="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\intermediates\pre-dexed\debug\android-support-v4_b348def22eeaf0b598e551726fa3e8501881dea8.jar" />
+    </item>
+    <item
+        jar="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3640b6e7e9de254b99010b1e311f38b138816f72">
+        <dex dex="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\intermediates\pre-dexed\debug\instant-run_f75ce06e5cd666181b3887a14f3425b244a541b8.jar" />
+    </item>
+    <item
+        jar="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\libs\commons-io-2.5.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b24f6678d458e65f08113a079e3724581eca1184">
+        <dex dex="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\intermediates\pre-dexed\debug\commons-io-2.5_9228c545cf052c983d26aebe42dc42f8ad001960.jar" />
+    </item>
+    <item
+        jar="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\libs\gson-1.7.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7291c9de7f574b15502f73f0ac2ae6d3af36c751">
+        <dex dex="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\intermediates\pre-dexed\debug\gson-1.7.1_a732abb15ede8815715cfa5bd9350345c700672e.jar" />
+    </item>
+    <item
+        jar="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="cea0c0ecdd554466700da82633b0c4319131a962">
+        <dex dex="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\intermediates\pre-dexed\debug\instant-run-bootstrap_0b866e0c2fdebd1f1013cb77d3303eb1dc512586.jar" />
+    </item>
+    <item
+        jar="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\libs\ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="224c93f1824fa17b96db7250c2e5e2703d45e052">
+        <dex dex="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.0.0-jar-with-dependencies_b1fd877643f507a21fa70be2d60fd0751b9ef667.jar" />
+    </item>
+    <item
+        jar="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\libs\android-query-full.0.26.7.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4055bed8ed6f6aa573fa3e7d979c66101c48e182">
+        <dex dex="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\intermediates\pre-dexed\debug\android-query-full.0.26.7_2df4f43645efee4ed896ce652926803950cde9de.jar" />
+    </item>
+    <item
+        jar="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\libs\httpmime-4.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5b0002c5fb66867ca919be0fbd86de1cfaf76da7">
+        <dex dex="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\intermediates\pre-dexed\debug\httpmime-4.3_66ee7f82d94b20f87e92d17e59389de5f3968a36.jar" />
+    </item>
+
+</items>

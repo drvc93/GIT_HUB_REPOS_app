@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+		
+        <TextView
+            android:id="@+id/thdcompania"
+            android:layout_height="fill_parent"
+        	android:textSize="15dp"
+            android:layout_width="0dip" 
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+        	android:text="-"
+        	android:gravity="center_horizontal"
+            android:typeface="sans"/>
+        
+        <TextView
+            android:id="@+id/thdnumero"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:layout_width="0dip"
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"
+            android:gravity="center_horizontal"
+            android:typeface="sans"/>
+        	<!-- android:layout_width="50dip" -->
+
+        <TextView
+            android:id="@+id/thdtipo"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:layout_width="0dip"
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"
+            android:gravity="center_horizontal"
+            android:typeface="sans"/>
+        	<!-- android:layout_width="50dip" -->
+
+        <TextView
+            android:id="@+id/thdmaquina"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:layout_width="0dip"
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"
+            android:typeface="sans"/>
+        	<!-- android:layout_width="80dip" -->
+
+        <TextView
+            android:id="@+id/thdcomentario"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:layout_width="0dip"
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"
+            android:typeface="sans"/>
+        	<!-- android:layout_width="80dip" -->
+
+        <TextView
+            android:id="@+id/thdusuarioi"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:layout_width="0dip"
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"
+            android:typeface="sans"/>
+        	<!-- android:layout_width="50dip" -->
+
+        <TextView
+            android:id="@+id/thdfechai"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:layout_width="0dip"
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"
+            android:typeface="sans"/>
+        	<!-- android:layout_width="80dip" -->
+
+        <TextView
+            android:id="@+id/thdusuariou"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:layout_width="0dip"
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"
+            android:typeface="sans"/>
+        	<!-- android:layout_width="80dip" -->
+
+        <TextView
+            android:id="@+id/thdfechau"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:layout_width="0dip"
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"
+            android:typeface="sans"/>
+        	<!-- android:layout_width="100dip" -->
+
+        <!-- <TextView
+            android:id="@+id/tcondicion"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" /> -->
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <!-- <TextView
+            android:id="@+id/tobservacion"
+            android:layout_width="150dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" /> -->
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <!-- <TextView
+            android:id="@+id/tcomentario"
+            android:layout_width="150dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" /> -->
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+
+        <!-- <TextView
+            android:id="@+id/tinspeccionado"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" /> -->
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+    </TableRow>
+
+</TableLayout>

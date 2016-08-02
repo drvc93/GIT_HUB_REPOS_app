@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ftablet1"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbuscarh"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dp"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="COMPAÑIA"
+                android:textSize="12dp"
+                android:typeface="sans" /><!-- android:background="#ff9efff8" -->
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dip"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="CORRELATIVO"
+                android:textSize="12dp"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dip"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="MAQUINA"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dip"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="CONDICION"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dip"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="COMENTARIO"
+                android:textSize="12dp"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dip"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="ESTADO"
+                android:textSize="12dp"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dip"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="F.INICIO"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dip"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="F.FIN"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dip"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="PERIODO"
+                android:textSize="12dp"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dip"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="USUARIO"
+                android:textSize="12dp"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="30dip"
+                android:layout_margin="1dip"
+                android:layout_weight="0.2"
+                android:background="#555555"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="ULT.FECHA"
+                android:textSize="12dp" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/listainspeccionre"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/linearLayout4"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dip" >
+    </ListView>
+
+    <TableLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="0.2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:text="MAQUINA"
+                android:textSize="20dp" /><!-- android:background="@drawable/cuadro" -->
+
+            <Spinner
+                android:id="@+id/thmaquina"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="0.2"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                style="@style/SpinnerSG"/>
+
+            <Button
+                android:id="@+id/bmaquina"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="0.2"
+                android:gravity="left"
+                android:text="S"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/thperiodo"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="40dip"
+                android:layout_weight="0.2"
+                android:background="@drawable/cuadro"
+                android:gravity="center"
+                android:text="5 SEMANAS"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="0.2"
+                android:gravity="left"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="TIPO INSPECCION"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/ttipoi"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="0.2"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                style="@style/SpinnerSG"/>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="40dip"
+                android:layout_weight="0.2"
+                android:background="@drawable/cuadro"
+                android:gravity="center"
+                android:text=" PERIODO"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginRight="40dip"
+                android:layout_weight="0.2"
+                android:background="@drawable/cuadro"
+                android:gravity="center"
+                android:text="5 SEMANAS"
+                android:textSize="20dp"
+                android:visibility="invisible" /><!-- android:layout_marginLeft="40dip" -->
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="40dip"
+                android:layout_weight="0.2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:text="FECHA INICIAL"
+                android:textSize="20dp" /><!-- android:background="@drawable/cuadro" -->
+
+            <TextView
+                android:id="@+id/tfih"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="40dip"
+                android:layout_weight="0.2"
+                android:background="@drawable/cuadro"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="  NIVEL 01"
+                android:textColor="#808080"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginLeft="40dip"
+                android:layout_weight="0.2"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:text="FECHA FINAL"
+                android:textSize="20dp" /><!-- android:background="@drawable/cuadro" -->
+
+            <TextView
+                android:id="@+id/tffh"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_marginRight="40dip"
+                android:layout_weight="0.2"
+                android:background="@drawable/cuadro"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="SEMANA 27"
+                android:textColor="#808080"
+                android:textSize="20dp" /><!-- android:layout_marginLeft="40dip" -->
+            
+        </TableRow>
+        
+    </TableLayout>
+         
+    <Button
+	    android:id="@+id/btnbuscarh"
+	    android:layout_marginLeft="40dip"
+	    android:layout_marginBottom="10dip"
+	    android:layout_width="130dp"
+	    android:layout_height="50dp"
+	    android:layout_below="@+id/linearLayout3"
+	    android:layout_gravity="left"
+	    android:text="Buscar"
+	    android:textSize="25dp"
+	    android:background="@drawable/circular_button_2"
+	    style="@style/ButtonBUSCAR"/>
+    
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:orientation="vertical"><!-- android:background="@color/panelBusqueda" -->
+    
+    <!-- Cabecera de Textos -->
+   	<LinearLayout 
+       android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_marginBottom="5dp"><!-- android:background="@color/panelBusquedasuperior" -->
+    	
+    	<LinearLayout 
+	       	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="3dp"	    	
+	    	android:layout_marginRight="3dp"
+	    	android:layout_marginBottom="2dp"
+	    	android:layout_gravity="right"
+	    	android:orientation="horizontal">    	
+    	
+			<TextView
+	            android:textSize="16dp"
+	            android:layout_width="wrap_content"            
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="3dp"	            
+	            android:textStyle="bold"/><!-- android:text="@string/listaimagen_disponible" 
+	            android:textColor="@color/predet"-->
+		
+			<LinearLayout 
+		       	android:layout_width="0dip"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginLeft="3dp"		    	
+		    	android:orientation="horizontal"
+		    	android:gravity="right"
+		    	android:layout_weight="1">    	
+		
+				<TextView
+		            android:textSize="16dp"
+		            android:layout_width="wrap_content"            
+		            android:layout_height="wrap_content"	                  
+		            android:textStyle="bold"/><!-- android:text="@string/listaimagen_seleccionartodos" 
+		            android:textColor="@color/predet"-->		
+			
+				<CheckBox 
+					android:id="@+id/ChkTodos"    
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"							
+					android:layout_marginLeft="4dp"/>
+					
+			</LinearLayout>
+		</LinearLayout>
+		
+		<View
+	        android:layout_width="wrap_content"
+	        android:layout_height="2dp"/><!-- android:background="@color/line" -->
+				
+   	</LinearLayout>
+    
+    <!-- Panel de Filtrado -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:orientation="vertical"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_weight="1"
+	    android:layout_marginLeft="3dp"
+	    android:layout_marginRight="3dp">
+	    	    
+        <ListView 
+			android:id="@+id/lista" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:divider="#FFFFFF" 
+			android:dividerHeight="1dp"
+			android:layout_gravity="center"
+			android:drawSelectorOnTop="false"/>	    
+	</LinearLayout>	
+	
+	<!-- Pie de botones -->
+   	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"><!-- android:background="@drawable/draw_button_gen" -->	
+        
+        <Button
+            android:id="@+id/btn_ver"
+            android:layout_width="108dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="1dp"
+            android:textSize="15dp"
+            android:onClick="EventoVer"            
+            android:textStyle="bold"/><!-- android:text="@string/btn_ver"
+            android:background="@drawable/draw_button_gen" 
+            android:textColor="@color/predet" -->        
+        
+        <Button
+            android:id="@+id/btn_enviar"
+            android:layout_width="108dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="1dp"
+            android:textSize="15dp"
+            android:onClick="EventoEnviar"            
+            android:textStyle="bold"/><!-- android:text="@string/btn_enviar" 
+            android:background="@drawable/draw_button_gen"
+		    android:textColor="@color/predet" -->  
+        
+        <Button
+            android:id="@+id/btn_cerrar"
+            android:layout_width="108dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="1dp"
+            android:textSize="15dp"
+            android:onClick="EventoCerrar"                   
+            android:textStyle="bold"/><!-- android:text="@string/btn_cerrar" 
+            android:background="@drawable/draw_button_gen"
+		    android:textColor="@color/predet" -->
+        
+	</LinearLayout>
+	
+</LinearLayout>

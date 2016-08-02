@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="true">
+	
+    <LinearLayout 
+	    android:layout_width="0dip" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="vertical"
+	    android:layout_weight="1"> 
+	    
+        <TextView
+	        android:id="@+id/lblName"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="16dp"
+	        android:textColor="@color/listatitulo"
+	        android:layout_marginLeft="3dp">
+    	</TextView>		    	
+        			    
+        <TextView 
+	    	android:id="@+id/lblNameSub"    
+		    android:layout_width="fill_parent"    
+		    android:layout_height="wrap_content"		   
+		    android:textSize="14dp" 
+		    android:textColor="@color/listasubtitulo"
+		    android:layout_marginLeft="3dp">		    	
+         </TextView>        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="40dp" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal"> 
+	    
+        <CheckedTextView 
+            android:id="@+id/bxcheck" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"            
+            android:gravity="center_vertical"             
+            android:paddingLeft="6dip" 
+            android:paddingRight="6dip"
+            android:clickable="false"
+            android:checked="false"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"/>
+        
+    </LinearLayout>    
+
+</LinearLayout>

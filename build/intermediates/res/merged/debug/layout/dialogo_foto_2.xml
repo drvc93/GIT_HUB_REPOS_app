@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dip"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:layout_gravity="center" >
+	
+    <LinearLayout
+        android:id="@+id/tab01_Foto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:gravity="top|center"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@+id/barraProgreso"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:visibility="gone" />
+
+        <WebView
+            android:id="@+id/webDescarga"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/baceptar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.80"
+            android:src="@drawable/cuadrot" />
+
+        <!--android:layout_margin="2dp"<ImageView
+		          android:id="@+id/image"
+		          android:layout_width="fill_parent"
+		          android:layout_height="200dip"
+		          android:layout_above="@+id/baceptar"
+		          android:layout_alignParentLeft="true"
+		          android:layout_alignParentTop="true"
+		          android:src="@drawable/cuadrot" />-->
+
+        <Button
+            android:id="@+id/baceptar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="14dp"
+            android:text="Aceptar" />
+    </LinearLayout>
+
+</LinearLayout>

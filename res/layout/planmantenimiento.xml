@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ftablet1"
+    android:orientation="vertical" >
+
+    
+      <TableLayout 
+              android:id="@+id/linearLayout2"
+   android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+     android:layout_below="@+id/linearLayout1"
+     android:stretchColumns="1" >  
+      <TableRow > 
+   
+
+       <TextView
+               android:layout_marginLeft="40dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+            android:layout_height="40dip"
+           android:gravity="center"
+            android:background="@drawable/cuadro"
+            android:text="FECHA INICIAL"
+            android:textSize="27dp" />
+
+        <TextView
+             android:id="@+id/tfih"
+                  android:layout_marginLeft="40dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+        android:layout_height="40dip"
+            android:gravity="center"
+            android:background="@drawable/cuadro"
+            android:text="  NIVEL 01"
+            android:textSize="27dp" />
+
+        <TextView
+                android:layout_marginLeft="40dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+         android:layout_height="40dip"
+            android:gravity="center"
+            android:background="@drawable/cuadro"
+            android:text="FECHA FINAL"
+            android:textSize="27dp" />
+
+        <TextView
+             android:id="@+id/tffh"
+                android:layout_marginLeft="40dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+            android:layout_height="40dip"
+            android:gravity="center"
+            android:background="@drawable/cuadro"
+            android:text="SEMANA 27"
+            android:textSize="27dp" />
+       </TableRow>
+</TableLayout>
+        
+        <TableLayout
+                    android:id="@+id/linearLayout4"
+               android:layout_width="fill_parent"  
+                     android:layout_below="@+id/linearLayout6"
+    android:layout_height="wrap_content"
+     android:stretchColumns="1" >   
+      
+   <TableRow > 
+        <TextView
+            android:layout_margin="1dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+            android:layout_height="wrap_content"
+     android:gravity="center"
+            android:background="#ff9efff8"
+            android:text="PERIODO INSPECCION"
+        
+            android:textSize="25dp"
+            android:typeface="sans" />
+
+        <TextView
+           android:layout_margin="1dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+                       android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#ff9efff8"
+            android:text="DESCRIPCION "
+            android:textSize="25dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_margin="1dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+                      android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#ff9efff8"
+            android:text="PERIOCIDAD"
+            android:textSize="25dp" />
+
+        <TextView
+           android:layout_margin="1dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+		  android:gravity="center"
+                      android:layout_height="wrap_content"
+          
+            android:background="#ff9efff8"
+            android:text="ESTADO"
+            android:textSize="25dp" />
+
+        
+    </TableRow>
+</TableLayout>
+
+
+     <ListView
+         android:id="@+id/listainspeccion"
+         android:layout_width="fill_parent"
+         android:layout_height="300dp"
+       android:layout_below="@+id/linearLayout4"
+         android:divider="@android:color/transparent"
+         android:dividerHeight="5dip" >
+     </ListView>
+
+   
+   
+         <TableLayout 
+              android:id="@+id/linearLayout1"
+   android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+     android:stretchColumns="1" >  
+      <TableRow > 
+
+            <TextView
+                android:layout_marginLeft="40dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+    android:gravity="center"
+            android:layout_height="40dip"
+       
+            android:background="@drawable/cuadro"
+            android:text="MAQUINA"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/thmaquina"
+              android:layout_marginLeft="40dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+     android:gravity="center"
+                 android:layout_height="40dip"
+           
+            android:background="@drawable/cuadro"
+            android:text="  "
+            android:textSize="27dp" />
+
+        <TextView
+         android:layout_marginLeft="40dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+     android:gravity="center"
+                android:layout_height="40dip"
+           android:visibility="invisible"
+            android:background="@drawable/cuadro"
+            android:text=" PERIODO"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/thperiodo"
+           android:layout_marginLeft="40dip"
+        android:layout_weight="0.2"
+		android:layout_width="0dip" 
+     android:gravity="center"
+             android:layout_height="40dip"
+         android:visibility="invisible"
+            android:background="@drawable/cuadro"
+            android:text="5 SEMANAS"
+            android:textSize="27dp" />
+     </TableRow>
+</TableLayout>
+
+         <LinearLayout
+             android:id="@+id/linearLayout6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/linearLayout2"
+         
+             android:layout_marginLeft="40dp"
+             android:gravity="center"
+             android:orientation="horizontal" >
+
+             <Button
+                 android:id="@+id/btnbuscarh"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+        
+                 android:text="Buscar"
+                 android:textSize="40dp" />
+         </LinearLayout>
+
+</RelativeLayout>

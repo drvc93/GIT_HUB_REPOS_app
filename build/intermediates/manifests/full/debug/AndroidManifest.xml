@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lys.mobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.lys.mobile.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/lysicono"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.lys.mobile.Login"
+            android:label="@string/app_name" >
+
+            <!-- principal -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.MainPrincipal"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!--  -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.MainPrincipal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.MainInspeccionT"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!--  -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.MainInspeccionT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.MantInspeccionT"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.MantInspeccionT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.MainInspeccionG"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!--  -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.MainInspeccionG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.MantInspeccionG"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.MantInspeccionG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.MyActivity"
+            android:label="@string/app_name" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.MyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.Inspeccion"
+            android:label="@string/app_name" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Inspeccion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.HistoInspeccion"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.HistoInspeccion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.PlanMantenimiento"
+            android:label="@string/app_name" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Planmantenimiento" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.InspeccionesRealizadas"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+
+            <!--
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Inspeccion" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.lys.mobile.InfoTecnica"
+            android:label="@string/app_name" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Infotecnica" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.HistoFallas"
+            android:label="@string/app_name" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Histofallas" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.IndicadoresMantto"
+            android:label="@string/app_name" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Indicadoresmantto" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.Llenar"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Llenar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.LlenarComentario"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Llenarcomentario" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.Imagen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Imagen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.Image"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.image" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.Sservicio"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Sservicio" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.DetalleEjecutado"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.DetalleEjecutado" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.DetalleEjecutadoRealizado"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.DetalleEjecutadoRealizado" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.DetalleEjecutado2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.DetalleEjecutado2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.VerImagen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.lys.mobile.VerListaImagen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+
+        <service android:name="com.lys.mobile.asynctask.UploadService" />
+
+        <activity
+            android:name="com.lys.mobile.Llenar2"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.Llenar2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lys.mobile.InspeccionesRealizadasG"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lys.mobile.DetalleEjecutadoRealizadoG"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <!--
+        <activity
+            android:name=".DetalleEjecutadoRealizadoG"
+            android:label="@string/app_name" android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.DetalleEjecutadoRealizadoG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        -->
+
+
+        <!--
+        <activity
+            android:name=".HistoInspeccionG"
+            android:label="@string/app_name" android:screenOrientation="landscape"  >
+            <intent-filter>
+                <action android:name="com.example.user.codbar.HistoInspeccionG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        -->
+
+        <activity
+            android:name="com.lys.mobile.HistoInspeccionG"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lys.mobile.DetalleEjecutadoRealizadoG2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.lys.mobile.MenuPrincipal" >
+        </activity>
+        <activity android:name="com.lys.mobile.ListaOpciones" />
+    </application>
+
+</manifest>

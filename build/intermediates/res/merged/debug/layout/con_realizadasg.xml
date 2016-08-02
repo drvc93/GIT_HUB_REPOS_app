@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >    
+	
+    <TableRow > 
+     
+        <TextView
+            android:id="@+id/tc_compania"
+            android:layout_height="fill_parent"
+        	android:textSize="17dp"
+            android:layout_width="0dip" 
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+        	android:text="-"/>
+        
+        <TextView
+            android:id="@+id/tn_correlativo"
+            android:layout_height="fill_parent"
+            android:textSize="17dp"
+            android:layout_width="0dip" 
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:text="-"/>
+        
+        <TextView
+            android:id="@+id/tc_tipo"
+            android:layout_width="0dip" 
+            android:layout_height="fill_parent"
+           	android:textSize="17dp"
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:text="-"/>
+        
+        <TextView
+            android:id="@+id/tc_maquina"
+            android:layout_width="0dip" 
+            android:layout_height="fill_parent"
+            android:text="-"
+         	android:textSize="17dp"
+            android:layout_margin="1dip"
+ 			android:layout_weight="0.5"/>
+        
+        <TextView
+            android:id="@+id/tc_ccosto"
+            android:layout_width="0dip" 
+            android:layout_height="fill_parent"
+            android:text="-"
+         	android:textSize="17dp"
+            android:layout_margin="1dip"
+ 			android:layout_weight="0.5"/>
+        
+        <TextView
+            android:id="@+id/tc_comentario"
+            android:layout_width="0dip" 
+            android:layout_height="fill_parent"
+          	android:textSize="17dp"
+            android:layout_margin="1dip"
+ 			android:layout_weight="0.5"
+            android:text="-"/>
+        
+        <TextView
+            android:id="@+id/tc_estado"
+            android:layout_height="fill_parent"
+      		android:textSize="17dp"
+            android:layout_width="0dip" 
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"/>
+        
+        <TextView
+            android:id="@+id/tc_usuarioinsp "
+            android:layout_height="fill_parent"
+          	android:textSize="17dp"
+            android:layout_width="0dip" 
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"/>
+        
+        <TextView
+            android:id="@+id/td_fechainsp"
+            android:layout_height="fill_parent"
+          	android:textSize="17dp"
+            android:layout_width="0dip" 
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"/>
+        
+        <TextView
+            android:id="@+id/tc_usuarioult"
+            android:layout_width="0dip" 
+            android:layout_height="fill_parent"
+ 			android:textSize="17dp"
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:text="-"/>
+        
+        <TextView
+            android:id="@+id/td_fechault"
+            android:layout_width="0dip" 
+            android:layout_height="fill_parent"
+            android:text="-"
+        	android:textSize="17dp"
+            android:layout_margin="1dip"
+ 			android:layout_weight="0.5"/>
+
+   </TableRow>
+</TableLayout>

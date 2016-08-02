@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp">
+
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+        
+        <!-- Línea -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciontdetalle_linea"
+	        android:visibility="gone">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tnumerod"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <!-- Inspección -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciontdetalle_desc">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tdetalled"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/predet"
+	        android:layout_weight="1">
+        </TextView>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+        
+        <!-- Tipo Inspección -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciontdetalle_tipoi">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tsystemad"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"
+	        android:textColor="@color/predet"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <!-- % Mín. -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciontdetalle_porcmin">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tminimod"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/predet"
+	        android:layout_weight="1">
+    	</TextView>
+    	
+        <!-- % Máx. -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciontdetalle_porcmax">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tmaximod"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/predet"
+	        android:layout_weight="1">
+    	</TextView>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+        
+        <!-- % Insp. -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciontdetalle_porcinsp">
+    	</TextView>
+        
+        <EditText
+            android:id="@+id/tllenarsmd"
+            android:layout_width="80dip" 
+            android:layout_margin="1dip"
+            android:layout_height="25dp"
+            android:paddingLeft="5dp"
+			android:paddingRight="5dp"
+			android:layout_gravity="fill"
+			android:lines="1"
+	     	android:textSize="14dp"
+            android:background="@drawable/draw_textview"
+            android:inputType="numberDecimal"/>
+        
+        <!-- % Estado -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciontdetalle_estado">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tokid"
+	        android:layout_width="80dp"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/predet"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <Button
+	        android:id="@+id/bcomentariod"
+	        android:layout_width="25dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="3dp"
+	        android:background="@drawable/flat_selector"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:text="@string/mantinspecciontdetalle_coment"
+			android:focusable="false"
+			android:textSize="14dp"
+			android:focusableInTouchMode="false"/>
+        
+        <Button
+	        android:id="@+id/bimagend"
+	        android:layout_width="25dp"
+	        android:layout_height="20dp"
+	        android:layout_marginLeft="3dp"
+	        android:background="@drawable/flat_selector"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:text="@string/mantinspecciontdetalle_foto"
+			android:focusable="false"
+			android:textSize="14dp"
+			android:focusableInTouchMode="false"/><!-- android:onClick="EventoFotoDet" -->
+        
+   </LinearLayout>
+   
+   <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/line"/>
+
+</LinearLayout>

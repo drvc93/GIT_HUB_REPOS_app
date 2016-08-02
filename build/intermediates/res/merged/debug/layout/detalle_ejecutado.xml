@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ftablet1"
+    android:orientation="vertical" >
+
+  <TableLayout android:id="@+id/linearLayout1"
+  		android:layout_width="fill_parent"  
+    	android:layout_height="wrap_content"
+     	android:stretchColumns="1" 
+     	android:layout_marginTop="20dp">
+      
+      	<TableRow >
+      	     
+            <TextView
+            	android:layout_marginLeft="40dip"
+        		android:layout_weight="0.2"
+				android:layout_width="0dip" 
+    			android:gravity="left"
+            	android:layout_height="40dip"
+                android:visibility="invisible"
+            	android:text="TIEMPO TRANSC."
+            	android:textSize="23dp" /><!-- android:background="@drawable/cuadro" -->
+
+        	<TextView
+            	android:id="@+id/ttiemp"
+              	android:layout_marginLeft="40dip"
+        		android:layout_weight="0.2"
+				android:layout_width="0dip" 
+     			android:gravity="left"
+                android:layout_height="40dip"
+           		android:visibility="invisible"
+            	android:text=" "
+            	android:textSize="23dp" /><!-- android:background="@drawable/cuadro" -->
+
+        	<TextView
+         		android:layout_marginLeft="40dip"
+        		android:layout_weight="0.2"
+				android:layout_width="0dip" 
+     			android:gravity="left"
+                android:layout_height="40dip"
+            	android:text="MÁQUINA"
+            	android:textColor="#FFFFFF"
+            	android:textSize="23dp"
+            	android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+        	<TextView
+            	android:id="@+id/tmaquinad"
+           		android:layout_marginLeft="40dip"
+        		android:layout_weight="0.2"
+				android:layout_width="0dip" 
+     			android:gravity="left"
+             	android:layout_height="40dip"
+             	android:enabled="false"
+            	android:text=""
+            	android:textColor="#808080"
+            	android:textSize="23dp"
+            	android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+     </TableRow>
+</TableLayout>
+
+<TableLayout android:id="@+id/linearLayout2"
+	android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linearLayout1"
+    android:stretchColumns="1" >  
+    
+    <TableRow >
+    	<TextView
+        	android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+            android:layout_height="40dip"
+           	android:gravity="left"
+            android:text="INSPECTOR"
+            android:textSize="23dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+        <TextView
+        	android:id="@+id/tvinllusuariod"
+            android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+        	android:layout_height="40dip"
+            android:gravity="left"
+            android:text=""
+            android:enabled="false"
+            android:textSize="23dp"
+            android:textColor="#808080"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+        <TextView
+            android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+         	android:layout_height="40dip"
+            android:gravity="left"
+            android:text="DESCRIPCION"
+            android:textSize="23dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+        <TextView
+            android:id="@+id/tdescripciond"
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+        	android:ellipsize="end"
+            android:gravity="left"
+            android:text=""
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:enabled="false"
+            android:textSize="23dp"
+            android:textColor="#808080"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+       </TableRow>
+</TableLayout>
+
+<TableLayout android:id="@+id/linearLayout3"
+	android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linearLayout2"
+    android:stretchColumns="1" >  
+    
+    <TableRow >
+         
+		<TextView
+        	android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+    		android:gravity="left"
+            android:layout_height="40dip"
+            android:text="CONDICIÓN MÁQUINA"
+            android:textSize="23dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+      	<TextView
+            android:id="@+id/tcondid"
+            android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+     		android:gravity="left"
+            android:enabled="false"
+            android:layout_height="40dip"
+            android:textSize="23dp"
+            android:textColor="#808080"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+      	<TextView
+      		android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+     		android:gravity="left"
+            android:layout_height="40dip"
+            android:text="PERIODO"
+            android:textSize="23dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+      <TextView android:id="@+id/tperiodod"
+      		android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+     		android:gravity="left"
+        	android:enabled="false"            
+            android:layout_height="40dip"
+            android:textSize="23dp"
+            android:textColor="#808080"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+     </TableRow>
+</TableLayout>
+
+<TableLayout 
+	android:id="@+id/linearLayout4"
+   	android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linearLayout3"
+    android:stretchColumns="1" >  
+    
+    <TableRow > 
+		<TextView
+        	android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+    		android:gravity="left"
+            android:layout_height="40dip"
+            android:text="ESTADO"
+            android:textSize="23dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+        <TextView
+            android:id="@+id/testadocad"
+            android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+     		android:gravity="left"
+            android:layout_height="40dip"
+            android:enabled="false"
+            android:text="SIN ESTADO"
+            android:textSize="23dp"
+            android:textColor="#808080"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+        <TextView android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+     		android:gravity="left"
+            android:layout_height="40dip"
+            android:text="COMENTARIO"
+            android:textSize="23dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+        <Button
+            android:id="@+id/tcomentind"
+           	android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+     		android:gravity="center"
+     		android:text="INGRESAR.."
+            android:ellipsize="end"
+			android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:textColor="#808080"
+            android:textStyle="bold"/>
+     </TableRow>
+</TableLayout>
+    
+<TableLayout 
+	android:id="@+id/linearLayout5"
+   	android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linearLayout4"
+    android:stretchColumns="1" >  
+    
+    <TableRow > 
+		
+		<TextView
+        	android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+            android:layout_height="40dip"
+           	android:gravity="left"
+            android:text="FECHA INICIO"
+            android:textSize="23dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+        <TextView
+            android:id="@+id/tfind"
+            android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+        	android:layout_height="40dip"
+            android:gravity="left"
+            android:text=" "
+            android:enabled="false"
+            android:textSize="23dp"
+            android:textColor="#808080"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+        <TextView
+            android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+         	android:layout_height="40dip"
+            android:gravity="left"
+            android:text="FECHA FIN"
+            android:textSize="23dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+
+        <TextView
+            android:id="@+id/tffind"
+            android:layout_marginLeft="40dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip" 
+            android:layout_height="40dip"
+            android:gravity="left"
+            android:text=""
+            android:enabled="false"
+            android:textSize="23dp"
+            android:textColor="#808080"
+            android:textStyle="bold"/><!-- android:background="@drawable/cuadro" -->
+       </TableRow>
+</TableLayout>
+
+<TableLayout android:id="@+id/linearLayout6"
+	android:layout_width="fill_parent"  
+    android:layout_below="@+id/linearLayout5"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1" >   
+      
+	<TableRow > 
+		
+		<TextView 
+        	android:layout_width="40dip"
+			android:background="#555555"
+            android:textColor="#FFFFFF"
+		  	android:gravity="center"
+            android:layout_height="30dip"
+        	android:textSize="12dp"
+        	android:text="Nº"
+            android:typeface="sans" /><!-- android:background="#ff9efff8"
+            android:layout_weight="0.2"
+			android:layout_width="0dip" 
+			android:layout_margin="1dip"-->
+
+        <TextView
+            android:layout_margin="1dip"
+        	android:layout_weight="0.2"
+			android:layout_width="0dip"
+			android:layout_height="30dip"
+			android:background="#555555"
+            android:textColor="#FFFFFF"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="INSPECCIÓN"
+          	android:textSize="12dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_margin="1dip"
+			android:layout_width="100dip" 
+		  	android:gravity="center"
+            android:layout_height="30dip"
+          	android:background="#555555"
+            android:textColor="#FFFFFF"
+            android:text="TIPO INSP."
+            android:textSize="12dp"
+            android:typeface="sans"/>
+        	<!-- android:layout_weight="0.2"
+			android:layout_width="0dip" -->
+
+        <TextView
+           	android:layout_margin="1dip"
+			android:layout_width="80dip" 
+		  	android:gravity="center"
+            android:layout_height="30dip"
+         	android:background="#555555"
+            android:textColor="#FFFFFF"
+            android:text="% MIN"
+            android:textSize="12dp"
+            android:typeface="sans" />
+        	<!-- android:layout_weight="0.2"
+			android:layout_width="0dip" -->
+
+        <TextView
+            android:layout_margin="1dip"
+			android:layout_width="80dip" 
+		  	android:gravity="center"
+            android:layout_height="30dip"
+           	android:background="#555555"
+            android:textColor="#FFFFFF"
+            android:text="% MAX"
+            android:textSize="12dp"
+            android:typeface="sans" />
+        	<!-- android:layout_weight="0.2" 
+        	android:layout_width="0dip" -->
+
+        <TextView
+            android:layout_margin="1dip"
+			android:layout_width="100dip" 
+		  	android:gravity="center"
+            android:layout_height="30dip"
+        	android:background="#555555"
+            android:textColor="#FFFFFF"
+            android:text="% INSP."
+       		android:textSize="12dp"
+       		android:typeface="sans" />
+        	<!-- android:layout_weight="0.2"
+        	android:layout_width="0dip" -->
+
+        <TextView
+            android:layout_margin="1dip"
+			android:layout_width="100dip"
+		  	android:gravity="center"
+         	android:layout_height="30dip"
+            android:background="#555555"
+            android:textColor="#FFFFFF"
+            android:text="ESTADO"
+            android:textSize="12dp"
+            android:typeface="sans" />
+        	<!-- android:layout_weight="0.2"
+        	android:layout_width="0dip" -->
+        
+		<TextView
+        	android:layout_margin="1dip"
+			android:layout_width="120dip" 
+		  	android:gravity="center"
+            android:layout_height="30dip"
+            android:ellipsize="end"
+            android:background="#555555"
+            android:textColor="#FFFFFF"
+            android:text="COMENTARIO"
+            android:textSize="12dp"
+            android:typeface="sans" />
+			<!-- android:layout_weight="0.2"
+			android:layout_width="0dip" -->
+
+        <TextView
+            android:layout_margin="1dip"
+			android:layout_width="150dip" 
+		  	android:gravity="center"
+            android:layout_height="30dip"
+            android:ellipsize="end"
+            android:background="#555555"
+            android:textColor="#FFFFFF"
+            android:text="FOTO"
+            android:textSize="12dp"
+            android:typeface="sans" />
+        	<!-- android:layout_weight="0.2"
+			android:layout_width="0dip" -->
+      </TableRow>
+</TableLayout>
+
+<LinearLayout
+	android:id="@+id/linearLayout7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_below="@+id/listainspeccion"
+    android:orientation="horizontal" >
+
+	</LinearLayout>
+		<ListView
+        	android:id="@+id/listainspecciond"
+         	android:layout_width="fill_parent"
+         	android:layout_height="100dp"
+         	android:layout_above="@+id/sendd"
+         	android:layout_below="@+id/linearLayout6"
+         	android:divider="@android:color/transparent"
+         	android:dividerHeight="5dip" >
+     	</ListView>
+
+     	<Button
+        	android:id="@+id/sendd"
+        	android:layout_width="130dip"
+         	android:layout_height="50dip"
+         	android:layout_alignParentBottom="true"
+         	android:layout_alignParentLeft="true"
+         	android:layout_margin="10dip"
+         	android:layout_marginBottom="16dp"
+         	android:layout_marginLeft="509dp"
+         	android:text="RETORNAR"
+         	android:textSize="15dp"
+         	android:background="@drawable/circular_button_2"
+         	style="@style/ButtonBACK"/><!-- android:background="#FFFF00" -->
+
+     	<Button
+     	    android:layout_toRightOf="@+id/sendd"
+         	android:id="@+id/env"
+         	android:layout_width="130dip"
+         	android:visibility="invisible"
+         	android:layout_height="50dip"
+         	android:layout_below="@+id/listainspecciond"
+         	android:layout_margin="10dip"
+         	android:layout_marginLeft="464dp"
+         	android:text="ENVIAR"
+         	android:textSize="15dp"
+         	android:background="@drawable/circular_button_2"
+         	style="@style/ButtonSEND" /><!-- android:background="#FFFF00" -->
+
+</RelativeLayout>

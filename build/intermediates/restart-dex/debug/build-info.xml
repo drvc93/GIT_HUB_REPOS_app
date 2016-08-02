@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="18"
+    density="420dpi"
+    format="7"
+    timestamp="2088558403089978"
+    token="-8597479007223149890" >
+
+    <task
+        name="javac"
+        duration="4619" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="1835" />
+    <task
+        name="verifier"
+        duration="2227" />
+
+    <artifact
+        location="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\outputs\apk\ManttoPDA adaptable-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="2088558403089978" >
+        <artifact
+            location="D:\Proyectos\Proyecto Movil Mantenimiento\ManttoPDA adaptable\build\outputs\apk\ManttoPDA adaptable-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

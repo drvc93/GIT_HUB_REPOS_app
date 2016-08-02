@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp">
+
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+        
+        <!-- Línea -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciongdetalle_linea">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tnumero"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <!-- Tipo Inspección -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciongdetalle_tinsp">
+    	</TextView>
+    	
+        <Spinner
+	        android:id="@+id/stiporevision"
+	        android:layout_gravity="center"
+	        android:layout_width="180dp"
+	        android:layout_margin="1dip"
+	        android:layout_height="25dp"
+	        android:layout_marginRight="10dp"
+	        android:paddingLeft="2dp"
+			android:paddingRight="2dp"
+			android:paddingBottom="1dp"
+			android:paddingTop="1dp"
+	        android:textSize="14dp"
+	        android:background="@drawable/draw_spinner_fondo"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+        
+        <!-- Comentario -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciongdetalle_com">
+    	</TextView>
+        
+        <EditText
+            android:id="@+id/tcomentario"
+            android:layout_width="0dip" 
+            android:layout_margin="1dp"
+            android:layout_marginRight="3dp"
+            android:layout_height="25dp"
+            android:paddingLeft="5dp"
+			android:paddingRight="5dp"
+	     	android:textSize="14dp"
+            android:background="@drawable/draw_textview"
+            android:layout_weight="1"/><!-- android:layout_gravity="fill"
+			android:lines="1" -->
+        
+        <Button
+	        android:id="@+id/bimagen"
+	        android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:layout_marginLeft="3dp"
+	        android:layout_marginRight="3dp"
+	        android:onClick="EventoTomarFoto"
+	        android:background="@drawable/flat_selector"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:text="@string/mantinspecciontdetalle_foto"
+			android:textSize="14dp"/>
+        
+        <ImageButton
+	       android:id="@+id/bremove"
+	       android:layout_width="20dp"
+	       android:layout_height="25dp"
+	       android:onClick="removeLineaOnClickHandler"
+	       android:src="@android:drawable/ic_menu_delete"
+	       android:background="@android:color/transparent"/>
+        
+    </LinearLayout>
+   
+   <!-- <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/line"/> -->
+
+</LinearLayout>

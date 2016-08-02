@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp">
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+        
+        <!-- Correlativo -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciontdetalle_linea"
+	        android:visibility="gone">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tn_correlativo"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <!-- Máquina -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarmaquina_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tc_maquina"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        <!-- Condición Máquina -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarcondmaquina_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tc_condicionmaquina"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        <!-- Estado -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarestado_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tc_estado"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+    	
+        <!-- Periodo Inspección -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarperiodo_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tc_periodoinspeccion"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        <!-- Comentario -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarusuario_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tc_usuarioInspecciond"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        <!-- Comentario -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarcoment_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tc_comentario"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+    	
+        <!-- Fecha Inicio -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarfini_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/td_fechaInicioInspecciond"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        <!-- Fecha Inicio -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarffin_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/td_fechaFinInspecciond"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+    </LinearLayout>
+    
+</LinearLayout>

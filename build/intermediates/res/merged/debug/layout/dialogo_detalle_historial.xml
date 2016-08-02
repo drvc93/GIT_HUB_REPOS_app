@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#911111"
+    android:orientation="vertical" >
+    
+	<ListView
+	    android:id="@+id/listainspecciondeta"
+	    android:layout_width="fill_parent"
+	    android:layout_height="300dip"
+	    android:layout_above="@+id/bcancelar"
+	    android:layout_alignParentTop="true"
+	    android:divider="@android:color/transparent"
+	    android:dividerHeight="5dip" >
+	</ListView>
+	
+	<Button
+	    android:id="@+id/bcancelar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+		android:layout_margin="5dip"
+	    android:text="Cancelar" />
+
+</RelativeLayout>

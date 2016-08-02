@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\Proyectos\\Proyecto Movil Mantenimiento\\ManttoPDA adaptable\\build\\intermediates\\res\\merged\\debug\\values-apa\\values-apa.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 46,
+                    "endOffset": 97
+                },
+                "from": {
+                    "file": "D:\\Proyectos\\Proyecto Movil Mantenimiento\\ManttoPDA adaptable\\res\\values-b+apa\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 46,
+                        "endOffset": 99
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp">
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+        
+        <!-- Tipo -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarhtipo_det" >
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/ttipo"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <!-- Correlativo -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciontdetalle_linea" >
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tnumero"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <!-- Fecha -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarhfecha_det" >
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tfecha"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <!-- Código Máquina -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarhmaquina_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tcodigo"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+    	
+        <!-- Centro Costo -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarhccosto_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tcc"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        <!-- Frecuencia -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarhfrec_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tfrecuencia"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        <!-- Condición Máquina -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarcondmaquina_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tc_condicionmaquina"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        <!-- Usuario Inspección -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarhusui_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tinspeccionado"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+    	
+        <!-- Observación -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarhobs_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tobservacion"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+        <!-- Comentario -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/lbl_buscarhcom_det">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tcomentario"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+        </TextView>
+        
+    </LinearLayout>
+    
+</LinearLayout>
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+    
+    <TableRow>
+
+        <TextView
+            android:id="@+id/ttipo"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/tnumero"
+            android:layout_width="10dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tfecha"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tcodigo"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tmaquina"
+            android:layout_width="120dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tcc"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tcentro"
+            android:layout_width="120dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/tfrecuencia"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/tcondicion"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tobservacion"
+            android:layout_width="150dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/tcomentario"
+            android:layout_width="150dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tinspeccionado"
+            android:layout_width="100dip"
+            android:layout_height="fill_parent"
+            android:layout_margin="1dip"
+            android:text="-"
+            android:textSize="15dp" />
+    </TableRow>
+
+</TableLayout> -->

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+        
+        <TextView
+            android:id="@+id/tnumerog2"
+            android:layout_width="40dip"
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:paddingLeft="10dip"
+            android:layout_gravity="bottom"/>
+		
+        <TextView
+            android:id="@+id/ttiporevisiong2"
+            android:layout_width="40dip"
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:paddingLeft="10dip"
+            android:layout_gravity="bottom"/>
+        			
+        <EditText
+            android:id="@+id/tcomentariog2"
+            android:layout_width="850dip"
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:hint="Escribir Comentario"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            android:enabled="false"/>		
+        
+        <Button
+            android:id="@+id/bimageng2"
+            android:layout_width="150dip"
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Imagen"/>
+        
+    </TableRow>
+
+</TableLayout>

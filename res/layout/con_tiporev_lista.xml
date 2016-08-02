@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >    
+   
+    <TableRow > 
+    
+           <TextView
+                android:id="@+id/tcodigo"
+                android:layout_width="0dip" 
+                android:layout_margin="1dip"
+                android:layout_weight="0.1"
+                android:layout_height="fill_parent"
+                android:textSize="14dp"
+                android:textColor="@color/predetnegro" 
+                android:ellipsize="end"
+				android:lines="1"
+				android:maxLines="1"
+				android:singleLine="true"/>
+           
+           <TextView
+				android:id="@+id/tdes"
+				android:layout_width="0dip" 
+                android:layout_margin="1dip"
+                android:layout_weight="0.5"
+               	android:layout_height="fill_parent"
+               	android:textSize="14dp"
+               	android:textColor="@color/predetnegro"
+               	android:ellipsize="end"
+				android:lines="1"
+				android:maxLines="1"
+				android:singleLine="true"/>
+				
+   </TableRow>
+   
+</TableLayout>

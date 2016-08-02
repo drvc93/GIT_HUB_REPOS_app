@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp">
+
+    <LinearLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+        
+        <!-- Línea -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciongdetalle_linea">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tnumerog2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <!-- Tipo Inspección -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciongdetalle_tinsp">
+    	</TextView>
+    	
+        <TextView
+	        android:id="@+id/ttiporevisiong2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	        
+	        android:layout_marginLeft="3dp"	        
+	        android:textColor="@color/yellow"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <!-- <Spinner
+	        android:id="@+id/stiporevision"
+	        android:layout_gravity="center"
+	        android:layout_width="180dp"
+	        android:layout_margin="1dip"
+	        android:layout_height="25dp"
+	        android:layout_marginRight="10dp"
+	        android:paddingLeft="2dp"
+			android:paddingRight="2dp"
+			android:paddingBottom="1dp"
+			android:paddingTop="1dp"
+	        android:textSize="14dp"
+	        android:background="@drawable/draw_spinner_fondo"/> -->
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+        
+        <!-- Comentario -->
+        <TextView	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textSize="14dp"	       
+	        android:layout_marginLeft="2dp"	        
+	        android:textColor="@color/predet"
+	        android:textStyle="bold"
+	        android:text="@string/mantinspecciongdetalle_com">
+    	</TextView>
+        
+        <TextView
+	        android:id="@+id/tcomentariog2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="25dp"	        
+	        android:textSize="14dp"
+	        android:background="@drawable/draw_textview"
+	        android:layout_marginLeft="3dp"
+	        android:layout_marginRight="3dp"
+	        android:textColor="@color/predetnegro"
+	        android:layout_weight="1">
+    	</TextView>
+        
+        <Button
+	        android:id="@+id/bimageng2"
+	        android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:layout_marginLeft="3dp"
+	        android:layout_marginRight="3dp"
+	        android:background="@drawable/flat_selector"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:text="@string/mantinspecciontdetalle_foto"
+			android:textSize="14dp"/>
+        
+    </LinearLayout>
+   
+   <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/line"/>
+
+</LinearLayout>
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+        
+        <TextView
+            android:id="@+id/tnumerog2"
+            android:layout_width="40dip"
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:paddingLeft="10dip"
+            android:layout_gravity="bottom"/>
+		
+        <TextView
+            android:id="@+id/ttiporevisiong2"
+            android:layout_width="40dip"
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:paddingLeft="10dip"
+            android:layout_gravity="bottom"/>
+        			
+        <EditText
+            android:id="@+id/tcomentariog2"
+            android:layout_width="850dip"
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:hint="Escribir Comentario"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            android:enabled="false"/>		
+        
+        <Button
+            android:id="@+id/bimageng2"
+            android:layout_width="150dip"
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Imagen"/>
+        
+    </TableRow>
+
+</TableLayout> -->

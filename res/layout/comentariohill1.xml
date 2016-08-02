@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ftablet1"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Informe"
+    android:textSize="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:textSize="80dp"
+    android:hint="Toque para ingresar texto"
+    android:scrollbarAlwaysDrawVerticalTrack="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:background="@drawable/circular_button"
+        style="@style/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/scomentario"
+        android:textSize="50dp"
+        android:text="Guardar comentario"/>
+</LinearLayout>

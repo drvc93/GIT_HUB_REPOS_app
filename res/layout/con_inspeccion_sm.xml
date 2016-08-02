@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >    
+	
+    <TableRow> 
+    
+        <TextView
+            android:id="@+id/tnumero"
+            android:layout_width="40dip" 
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+         	android:textSize="15dp"
+            android:text="01"
+            android:textColor="#FFFFFF"
+             android:paddingLeft="10dip"/>
+        	<!-- android:layout_width="0dip" 
+            android:layout_weight="0.5" -->
+        
+        <TextView
+            android:id="@+id/tdetalle"
+            android:layout_width="0dip" 
+            android:layout_margin="1dip"
+            android:layout_weight="0.5"
+            android:layout_height="fill_parent"
+        	android:textSize="15dp"
+            android:text=" - Estado Tacpa"/>
+        
+        <TextView
+            android:id="@+id/tsystema"
+        	android:layout_width="100dip" 
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:text="SM"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"/>
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+        
+        <TextView
+            android:id="@+id/tminimo"
+            android:layout_width="80dip" 
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+     	     android:textSize="15dp"
+            android:text="70"/>
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+        
+        <TextView
+            android:id="@+id/tmaximo"
+            android:layout_width="80dip" 
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:text="100"/>
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+        	
+        <EditText
+            android:id="@+id/tllenarsm"
+            android:layout_width="100dip" 
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+	     	android:textSize="15dp"
+            android:hint="Llenar"
+            android:inputType="numberDecimal"/>
+        	<!-- android:layout_width="0dip"
+        	 -->
+        
+        <TextView
+            android:id="@+id/toki"
+            android:background="@drawable/ok_mal"
+            android:layout_width="100dip" 
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+     	    android:textSize="15dp"
+            android:text="OK"
+            android:textColor="#000000"
+            android:paddingLeft="10dip"
+            android:gravity="center_vertical"/>
+        	<!-- android:layout_gravity="center"
+        	android:paddingLeft="10dip"
+        	android:layout_width="0dip"
+        	android:layout_weight="0.5" -->
+        
+        <Button
+            android:id="@+id/bcomentario"
+            android:layout_width="120dip" 
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+		 	android:textSize="15dp"
+            android:ellipsize="end"
+         	android:singleLine="true"
+            android:text="Comentario"/>
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5"
+        	android:layout_gravity="center" -->
+        
+        <Button
+            android:id="@+id/bimagen"
+            android:layout_width="150dip" 
+            android:layout_margin="1dip"
+            android:layout_height="fill_parent"
+     	    android:textSize="15dp"
+            android:ellipsize="end"
+			android:singleLine="true"
+            android:text="Imagen"/>
+        	<!-- android:layout_width="0dip"
+        	android:layout_weight="0.5"
+        	android:layout_gravity="center" -->
+   </TableRow>
+</TableLayout>

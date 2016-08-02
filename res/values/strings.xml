@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ManttoPDA</string>
+    <string name="ingresartexto">&#8230;</string>
+
+    <string name="title_igeneral">¿QUÉ DESEA HACER?</string>
+    <string name="title_histofallas">...</string>
+    <string name="title_image">...</string>
+    <string name="title_imagen">...</string>
+    <string name="title_indmantto">...</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_img_titulo">ManttoPDA</string>
+
+    <!-- Tab Inspecciones Técnicas Máquinas -->
+    <string name="maininspecciont_cbarra">Escanear Código de Barras</string>
+    <string name="maininspecciont_cbarra_sub">Escanea Código de Barras de una Máquina.</string>
+    <string name="maininspecciont_nuevo">Nueva Inspección T.</string>
+    <string name="maininspecciont_nuevo_sub">Registra una nueva Inspección Técnica</string>
+    <string name="maininspecciont_inspeccionenlinea">Inspección en Linea T.</string>
+    <string name="maininspecciont_inspeccionenlinea_sub">Lista Inspecciones Técnicas Aprobadas.</string>
+    <string name="maininspecciont_listar">Lista de Inspecciones T.</string>
+    <string name="maininspecciont_listar_sub">Permite Modificar, eliminar o ver Inspecciones Técnicas.</string>
+
+    <!-- Tab Inspecciones Generales Mantenimiento -->
+    <string name="maininspecciong_nuevo">Nueva Inspección G.</string>
+    <string name="maininspecciong_nuevo_sub">Registra una nueva Inspección General.</string>
+    <string name="maininspecciong_inspeccionenlinea">Inspección en Linea General</string>
+    <string name="maininspecciong_inspeccionenlinea_sub">Lista Inspecciones Generales Aprobadas.</string>
+    <string name="maininspecciong_listar">Lista de Inspecciones Generales</string>
+    <string name="maininspecciong_listar_sub">Permite Modificar, eliminar o ver Inspecciones Generales.</string>
+
+    <!-- Ventana de Acceso -->
+    <string name="main_txt_usuario">USUARIO</string>
+    <string name="main_txt_clave">CONTRASEÑA</string>
+
+    <!-- Eventos de Botones -->
+    <string name="btn_aceptar">ACEPTAR</string>
+    <string name="btn_sincronizar">SINCRONIZAR</string>
+    <string name="btn_salir">Salir</string>
+    <string name="btn_seleccionar">Seleccionar</string>
+    <string name="btn_retroceder">Retroceder</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_sel">...</string>
+
+    <!-- Mantenimiento de Inspecciones T. 01 -->
+    <string name="mantinspecciont01_CondicionInspeccion">CONDICIONES DE INSPECCIÓN TÉCNICA</string>
+    <string name="mantinspecciont01_Maquina">Máquina</string>
+    <string name="mantinspecciont01_BuscarMaquina">...</string>
+    <string name="mantinspecciont01_CondicionMaquina">Condición</string>
+    <string name="mantinspecciont01_Estado">Estado</string>
+    <string name="mantinspecciont01_CondicionMaquina_promt">Condición</string>
+    <string name="mantinspecciont01_Estado_promt">Estado</string>
+    <string name="mantinspecciont01_FechaInicio">Fecha Inicio</string>
+    <string name="mantinspecciont01_FechaFin">Fecha Fin</string>
+    <string name="mantinspecciont01_Inspector">Inspector</string>
+    <string name="mantinspecciont01_Comentario">Comentario</string>
+    <string name="mantinspecciont01_VerComentario">...</string>
+
+    <!-- Mantenimiento de Inspecciones T. 02 -->
+    <string name="mantinspecciont02_Periodo">Periodo: </string>
+
+    <!-- Mantenimiento de Inspecciones T. 03 -->
+    <string name="mantinspecciont03_TituloResumen">Resumen Inspección T. </string>
+    <string name="mantinspecciont03_Maquina">Máquina: </string>
+    <string name="mantinspecciont03_CondicionMaquina">Condición: </string>
+    <string name="mantinspecciont03_Estado">Estado: </string>
+    <string name="mantinspecciont03_FechaInicio">Fecha Inicio: </string>
+    <string name="mantinspecciont03_FechaFin">Fecha Fin: </string>
+    <string name="mantinspecciont03_Inspector">Inspector: </string>
+    <string name="mantinspecciont03_Comentario">Comentario: </string>
+
+    <!-- Mantenimiento de Inspecciones T. Detalles -->
+    <string name="mantinspecciontdetalle_linea">Nº:</string>
+    <string name="mantinspecciontdetalle_desc">Desc:</string>
+    <string name="mantinspecciontdetalle_tipoi">Tipo:</string>
+    <string name="mantinspecciontdetalle_porcmin">%Mín:</string>
+    <string name="mantinspecciontdetalle_porcmax">%Máx:</string>
+    <string name="mantinspecciontdetalle_porcinsp">%Insp:</string>
+    <string name="mantinspecciontdetalle_estado">Est:</string>
+    <string name="mantinspecciontdetalle_coment">C</string>
+    <string name="mantinspecciontdetalle_foto">F</string>
+
+    <!-- Búsqueda Inspecciones T. -->
+    <string name="lbl_buscarinspeccionttitulo">Búsqueda Inspección Técnica</string>
+    <string name="lbl_buscarmaquina">Máq.</string>
+    <string name="lbl_buscarfechaini">F.Ini.</string>
+    <string name="lbl_buscarfechafin">F.Fin</string>
+    <string name="lbl_buscartipoi">Tipo</string>
+    <string name="lbl_buscarmaquina_det">Máq:</string>
+    <string name="lbl_buscarcondmaquina_det">C.Máq:</string>
+    <string name="lbl_buscarestado_det">Est:</string>
+    <string name="lbl_buscarperiodo_det">Per.:</string>
+    <string name="lbl_buscarusuario_det">Usu.:</string>
+    <string name="lbl_buscarcoment_det">Com:</string>
+    <string name="lbl_buscarfini_det">F.I.:</string>
+    <string name="lbl_buscarffin_det">F.F.:</string>
+
+    <!-- Búsqueda Histórico Inspecciones T. -->
+    <string name="lbl_buscarhmaquina">Máq:</string>
+    <string name="lbl_buscarhccosto">C.C.:</string>
+    <string name="lbl_buscarhfechai">F.I.:</string>
+    <string name="lbl_buscarhfechaf">F.F.:</string>
+    <string name="lbl_buscarhtipo_det">Tipo:</string>
+    <string name="lbl_buscarhcorr_det">Nº:</string>
+    <string name="lbl_buscarhfecha_det">Fecha:</string>
+    <string name="lbl_buscarhmaquina_det">Máq:</string>
+    <string name="lbl_buscarhccosto_det">CC:</string>
+    <string name="lbl_buscarhfrec_det">Frec:</string>
+    <string name="lbl_buscarhusui_det">Usu:</string>
+    <string name="lbl_buscarhobs_det">Obs:</string>
+    <string name="lbl_buscarhcom_det">Com:</string>
+
+    <!-- Mantenimiento de Inspecciones G. 01 -->
+    <string name="mantinspecciong01_CondicionInspeccion">CONDICIONES DE INSPECCIÓN GENERAL</string>
+    <string name="mantinspecciong01_Maquina">Problema detectado</string>
+    <string name="mantinspecciong01_BuscarMaquina">...</string>
+    <string name="mantinspecciong01_TipoInsp">Tipo Insp.</string>
+    <string name="mantinspecciong01_TipoInsp_promt">Tipo Insp.</string>
+    <string name="mantinspecciong01_CCosto">C.Costo</string>
+    <string name="mantinspecciong01_CCosto_promt">C.Costo</string>
+    <string name="mantinspecciong01_FechaInsp">Fecha Insp.</string>
+    <string name="mantinspecciong01_Comentario">Área específica del problema</string>
+    <string name="mantinspecciong01_VerAreaProb">...</string>
+
+    <!-- Mantenimiento de Inspecciones G. 02 -->
+    <string name="mantinspecciong02_Agregar">AGREGAR</string>
+
+    <!-- Mantenimiento de Inspecciones G. Detalles -->
+    <string name="mantinspecciongdetalle_linea">Nº:</string>
+    <string name="mantinspecciongdetalle_tinsp">Tipo I.:</string>
+    <string name="mantinspecciongdetalle_com">Com:</string>
+    <string name="mantinspecciongdetalle_foto">F</string>
+
+    <!-- Búsqueda Inspecciones G. -->
+    <string name="lbl_buscarinspecciongtitulo">Búsqueda Inspección General</string>
+    <string name="lbl_buscarinspecciongtipoi">Tipo I.</string>
+    <string name="lbl_buscarinspecciongestado">Est.</string>
+    <string name="lbl_buscarinspecciongfechaini">F.Ini.</string>
+    <string name="lbl_buscarinspecciongfechafin">F.Fin</string>
+    <string name="lbl_buscarinspecciongcorr_det">Nº:</string>
+    <string name="lbl_buscarinspecciongtipoi_det">Tipo I.:</string>
+    <string name="lbl_buscarinspecciongmaq_det">Máq:</string>
+    <string name="lbl_buscarinspecciongccosto_det">C.C::</string>
+    <string name="lbl_buscarinspecciongcom_det">Com.:</string>
+    <string name="lbl_buscarinspecciongest_det">Est:</string>
+    <string name="lbl_buscarinspeccionusui_det">Usu:</string>
+    <string name="lbl_buscarinspeccionfechai_det">Fecha:</string>
+    <string name="lbl_buscarinspeccionestado_det">Estado:</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+     android:stretchColumns="1" >    
+   
+    
+     
+    <TableRow > 
+    
+                
+                 
+                <TextView
+                    android:id="@+id/tmantenimientose"
+                    
+                    android:layout_height="fill_parent"
+                    android:textSize="27dp"
+                     android:layout_width="0dip" 
+                    android:layout_margin="1dip"
+                    android:layout_weight="0.5"
+                    android:text="-"/>
+                <TextView
+                    android:id="@+id/tmantenimientosm"
+                     android:layout_width="0dip" 
+                    android:layout_height="fill_parent"
+                    android:textSize="27dp"
+                     android:layout_margin="1dip"
+                    android:layout_weight="0.5"
+                    android:text="-"/>
+                <TextView
+                    android:id="@+id/tinspeccionse"
+                       android:layout_width="0dip" 
+                    android:layout_height="fill_parent"
+                    android:text="-"
+                    android:textSize="27dp"
+                     android:layout_margin="1dip"
+         android:layout_weight="0.5"/>
+                <TextView
+                    android:id="@+id/tinspeccionsm"
+                     android:layout_width="0dip" 
+                    android:layout_height="fill_parent"
+                    android:textSize="27dp"
+                     android:layout_margin="1dip"
+         android:layout_weight="0.5"
+                    android:text="-"/>
+               
+                
+                
+   </TableRow>
+</TableLayout>
